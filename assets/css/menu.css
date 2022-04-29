@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/Montserrat-Italic-VariableFont_wght.ttf");
+}
+body{
+    margin: 0;
+    
+}
+#menuPrincipal ,#navPrincipal{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#menuPrincipal{
+    border: red 1px solid;
+    margin: 0;
+    padding: 0;
+}
+#menuPrincipal>li{
+    list-style: none;
+    margin : 0.5rem;}
+    .fa-record-vinyl{
+        padding: 0 1rem 0 1rem;
+
+}
+#menuPrincipal a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    font-weight: 900;
+    color: yellowgreen;
+}

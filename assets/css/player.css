@@ -1,0 +1,17 @@
+#playerApp{
+    width: 50%;
+    border: 1px  red solid;
+    margin: auto;
+}
+#cover>img{
+    width: 100%;
+}
+#nav{
+    /* flex doit etre attribute */
+    display: flex ; 
+    justify-content: center ;
+}
+#nav>img{
+     width: 20%;
+
+}
